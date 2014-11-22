@@ -15,7 +15,7 @@ customjs:
 {% endfor %}
 <script type="text/javascript">
   $(function() {
-    $("#my-github-projects").loadRepositories("Demonicpagan");
+    $("#my-github-projects").loadRepositories("demonicpagan");
   });
 </script>
 <!-- End GitHub repo code -->
