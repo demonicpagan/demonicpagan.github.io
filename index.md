@@ -11,11 +11,11 @@ customjs:
 
 <!-- Javascript to load and display repos from GitHub -->
 {% for js in page.customjs %}
-<script async type="text/javascript" src="{{ js }}"></script>
+<script type="text/javascript" src="{{ js }}"></script>
 {% endfor %}
 <script type="text/javascript">
   $(function() {
-    $("#my-github-projects").loadRepositories("demonicpagan");
+    $("#my-github-projects").loadRepositories("Demonicpagan");
   });
 </script>
 <!-- End GitHub repo code -->
