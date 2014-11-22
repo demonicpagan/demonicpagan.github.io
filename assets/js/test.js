@@ -29,6 +29,8 @@ jQuery.fn.loadRepositories = function(username) {
 				table.append('</table>');
 			}
 		}
+
+		table.append('</td></tr></table>');
 	}
   });
 
