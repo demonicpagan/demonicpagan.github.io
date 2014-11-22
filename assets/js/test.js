@@ -24,7 +24,7 @@ jQuery.fn.loadRepositories = function(username) {
 			if (this.name != (username.toLowerCase()+'.github.io')) {
 				table.append('<table class="ob">');
 				table.append('<tr><td colspan="2"><a href="'+ (this.homepage?this.homepage:this.html_url) +'">' + this.name + '</a></td><td align="center"><em>'+(this.language?('('+this.language+')'):'')+'</em></td></tr>');
-				table.append('<tr><td colspan="3")'+ this.description +'</td></tr>');
+				table.append('<tr><td colspan="3">'+ this.description +'</td></tr>');
 				table.append('<tr><td><em>Size: '+(this.size<1000?(this.size+' kB'):(Math.round((this.size/1000)*100)/100+' MB</em>'))+'</td><td><em>Watchers: '+this.watchers+'</em></td><td><em>Forks: '+this.forks+'</em></td></tr>');
 				table.append('</table>');
 			}
