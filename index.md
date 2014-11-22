@@ -7,6 +7,9 @@ customjs:
  - /assets/js/github-query.js
 ---
 {% include JB/setup %}
+<div id="my-github-projects"></div>
+
+<!-- Javascript to load and display repos from GitHub -->
 {% for js in page.customjs %}
 <script async type="text/javascript" src="{{ js }}"></script>
 {% endfor %}
@@ -15,4 +18,5 @@ customjs:
     $("#my-github-projects").loadRepositories("Demonicpagan");
   });
 </script>
+<!-- End GitHub repo code -->
 
