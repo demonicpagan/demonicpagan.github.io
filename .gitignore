@@ -1,5 +1,6 @@
 _site/*
 _theme_packages/*
+assets/js/test.js
 
 Thumbs.db
 .DS_Store
