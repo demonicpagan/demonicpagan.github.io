@@ -16,8 +16,9 @@ jQuery.fn.loadRepositories = function(username) {
 	sortByName(repos);
 
 	var table = $('<table width="100% id="ghrepos">');
-	//target.empty().append(table);
+
 	for (var i = 0; i < 4; i++) {
+		target.empty().append(table);
 		table.append('<tr align="center"><td>');
 
 		$(repos).each(function() {
