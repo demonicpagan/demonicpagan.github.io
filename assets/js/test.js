@@ -4,7 +4,7 @@
 // Fix getJSOn link request for compatibility with Github API v3 (thanks to MJoyce : http://stackoverflow.com/questions/11850527/use-javascript-to-get-the-list-of-a-users-github-repositories)
 
 jQuery.githubUser = function(username, callback) {
-  jQuery.getJSON('https://api.github.com/users/'+username+'/repos?callback=?',callback)
+  jQuery.getJSON('https://api.github.com/users/'+username+'/repos?callback=?',callback);
 }
 
 jQuery.fn.loadRepositories = function(username) {
@@ -15,7 +15,7 @@ jQuery.fn.loadRepositories = function(username) {
 	var repos = data.data; // JSON Parsing
 	sortByName(repos);
 
-	var table = $('<table width="100% id="repos">');
+	var table = $('<table width="100% id="repos" />');
 	target.empty().append(table);
 	for (var i = 0; i < 4; i++) {
 		table.append('<tr align="center"><td>');
