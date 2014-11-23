@@ -3,8 +3,6 @@
 // Fix for compatibility with Github API v3 (http://developer.github.com/v3/)
 // Fix getJSOn link request for compatibility with Github API v3 (thanks to MJoyce : http://stackoverflow.com/questions/11850527/use-javascript-to-get-the-list-of-a-users-github-repositories)
 
-alert("Testing!");
-
 jQuery.githubUser = function(username, callback) {
   jQuery.getJSON('https://api.github.com/users/'+username+'/repos?callback=?',callback);
 }
@@ -13,40 +11,28 @@ jQuery.fn.loadRepositories = function(username) {
   this.html("<span>Querying GitHub for " + username +"'s repositories...</span>");
  
   var target = this;
+
   $.githubUser(username, function(data) {
 	var repos = data.data; // JSON Parsing
 	sortByName(repos);
 
-	var table = $('<table width="100% id="ghrepos" />');
+	var table = $('<table width="100% id="ghreposcont"/>');
+	var table2 = $('<table width="100% id="ghrepos" class="ob"/>');
 	target.empty().append(table);
 
-	var cols = 1
-	table.append('<tr align="center"><td>');
+	for (var i = 0; i < 4; i++) {
+		table.append('<tr align="center"><td>');
+		target.empty().append(table2);
 
-	$(repos).each(function() {
-		if (this.name != (username.toLowerCase()+'.github.io')) {
-			for (var k = 0; k < repos.length; k++) {
-				if (cols == 1) {
-					table.append ('<tr align=center>');
-				}
-				if (cols == 3) {
-					table.append ('</tr>');
-				}
-				if (this.name != (username.toLowerCase()+'.github.io')) {
-					table.append('<table class="ob">');
-					table.append('<tr><td colspan="2"><a href="'+ (this.homepage?this.homepage:this.html_url) +'">' + this.name + '</a></td><td align="center"><em>'+(this.language?('('+this.language+')'):'')+'</em></td></tr>');
-					table.append('<tr><td colspan="3">'+ this.description?this.description:'&nbsp;' +'</td></tr>');
-					table.append('<tr><td><em>Size: '+(this.size<1000?(this.size+' kB'):(Math.round((this.size/1000)*100)/100+' MB</em>'))+'</td><td><em>Watchers: '+this.watchers+'</em></td><td><em>Forks: '+this.forks+'</em></td></tr>');
-					table.append('</table>');
-				}
-				i++
-				if ( i == 3 ) {
-					i == 1 ;
-				}
-
+		$(repos).each(function() {
+			if (this.name != (username.toLowerCase()+'.github.io')) {
+				table2.append('<tr><td colspan="2"><a href="'+ (this.homepage?this.homepage:this.html_url) +'">' + this.name + '</a></td><td align="center"><em>'+(this.language?('('+this.language+')'):'')+'</em></td></tr>');
+				table2.append('<tr><td colspan="3">'+ this.description +'</td></tr>');
+				table2.append('<tr><td><em>Size: '+(this.size<1000?(this.size+' kB'):(Math.round((this.size/1000)*100)/100+' MB</em>'))+'</td><td><em>Watchers: '+this.watchers+'</em></td><td><em>Forks: '+this.forks+'</em></td></tr>');
 			}
-		}
-		table.append('</td></tr></table>');
+		});
+
+		table.append('</td></tr>');
 	}
   });
 
