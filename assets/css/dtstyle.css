@@ -1,0 +1,14 @@
+dl.repos {
+	border: 1px solid #000;
+	background-color: #ddd;
+	width: 102px;
+	text-align: center;
+	padding: 10px;
+	float: left;
+	margin-right: 1em;
+}
+
+.repos dd {
+	margin: 0;
+	padding: 0;
+}
