@@ -11,28 +11,28 @@ jQuery.fn.loadRepositories = function(username) {
   this.html("<span>Querying GitHub for " + username +"'s repositories...</span>");
  
   var target = this;
+
   $.githubUser(username, function(data) {
 	var repos = data.data; // JSON Parsing
 	sortByName(repos);
 
-	var table = $('<table width="100% id="ghrepos">');
+	var table = $('<table width="100% id="ghreposcont"/>');
+	var table2 = $('<table width="100% id="ghrepos" class="ob"/>');
+	target.empty().append(table);
 
 	for (var i = 0; i < 4; i++) {
-		target.empty().append(table);
 		table.append('<tr align="center"><td>');
+		target.empty().append(table2);
 
 		$(repos).each(function() {
 			if (this.name != (username.toLowerCase()+'.github.io')) {
-				table.append('<table class="ob">');
-				table.append('<tr><td colspan="2"><a href="'+ (this.homepage?this.homepage:this.html_url) +'">' + this.name + '</a></td><td align="center"><em>'+(this.language?('('+this.language+')'):'')+'</em></td></tr>');
-				table.append('<tr><td colspan="3">'+ this.description +'</td></tr>');
-				table.append('<tr><td><em>Size: '+(this.size<1000?(this.size+' kB'):(Math.round((this.size/1000)*100)/100+' MB</em>'))+'</td><td><em>Watchers: '+this.watchers+'</em></td><td><em>Forks: '+this.forks+'</em></td></tr>');
-				table.append('</table>');
+				table2.append('<tr><td colspan="2"><a href="'+ (this.homepage?this.homepage:this.html_url) +'">' + this.name + '</a></td><td align="center"><em>'+(this.language?('('+this.language+')'):'')+'</em></td></tr>');
+				table2.append('<tr><td colspan="3">'+ this.description +'</td></tr>');
+				table2.append('<tr><td><em>Size: '+(this.size<1000?(this.size+' kB'):(Math.round((this.size/1000)*100)/100+' MB</em>'))+'</td><td><em>Watchers: '+this.watchers+'</em></td><td><em>Forks: '+this.forks+'</em></td></tr>');
 			}
 		});
 
-
-		table.append('</td></tr></table>');
+		table.append('</td></tr>');
 	}
   });
 
