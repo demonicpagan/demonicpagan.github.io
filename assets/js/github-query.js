@@ -15,7 +15,7 @@ jQuery.fn.loadRepositories = function(username) {
 	var repos = data.data; // JSON Parsing
 	sortByName(repos);
 
-	var list = $('<dl/>');
+	var list = $('<dl class="dl-horizontal dl-multicolumn" data-colcount="3" />');
 	target.empty().append(list);
 	$(repos).each(function() {
 		if (this.name != (username.toLowerCase()+'.github.io')) {
