@@ -4,7 +4,6 @@ title: Current Repositories
 tagline:
 customjs:
  - //code.jquery.com/jquery-1.11.0.min.js
- - /assets/js/jquery.columns.min.js
  - /assets/js/github-query.js
 ---
 {% include JB/setup %}
