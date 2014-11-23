@@ -20,7 +20,7 @@ jQuery.fn.loadRepositories = function(username) {
 	for (var i = 0; i < 4; i++) {
 		table.append('<tr align="center"><td>');
 
-		for (var k = 0; k < repos.length; k++) {
+		$(repos).each(function() {
 			if (this.name != (username.toLowerCase()+'.github.io')) {
 				table.append('<table class="ob">');
 				table.append('<tr><td colspan="2"><a href="'+ (this.homepage?this.homepage:this.html_url) +'">' + this.name + '</a></td><td align="center"><em>'+(this.language?('('+this.language+')'):'')+'</em></td></tr>');
@@ -28,7 +28,8 @@ jQuery.fn.loadRepositories = function(username) {
 				table.append('<tr><td><em>Size: '+(this.size<1000?(this.size+' kB'):(Math.round((this.size/1000)*100)/100+' MB</em>'))+'</td><td><em>Watchers: '+this.watchers+'</em></td><td><em>Forks: '+this.forks+'</em></td></tr>');
 				table.append('</table>');
 			}
-		}
+		});
+
 
 		table.append('</td></tr></table>');
 	}
