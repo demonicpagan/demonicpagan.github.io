@@ -15,7 +15,7 @@ jQuery.fn.loadRepositories = function(username) {
 	var repos = data.data; // JSON Parsing
 	sortByName(repos);
 
-	var list = $('<dl class="repos" data-colcount="3" />');
+	var list = $('<dl/>');
 	target.empty().append(list);
 
 	$(repos).each(function() {
