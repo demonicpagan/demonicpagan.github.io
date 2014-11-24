@@ -15,6 +15,9 @@ pushes.
 
 I think I will copy/paste that into my posts here as well, starting with the push I just made a few moments ago.
 
+Also, since the Stormbot v7 collection isn't listed under my repos on my main page, here is location to that project
+[Stormbot v7](https://github.com/StormbotTCL/Stormbot7)
+
 > [Coder's message] <br />
 > Fixed an array of things from SIG*s (POSIX signal event handlers) to tweaks in the data handlers (DATA [ARRAY] LREMOVE / SEARCH). Renamed BOTNET.SB7 to TREE.SB7. OAUTH wasn't working in DCC. Fixed WHO. Created channel-mode tracking (005).
 > 
