@@ -15,7 +15,7 @@ pushes.
 
 I think I will copy/paste that into my posts here as well, starting with the push I just made a few moments ago.
 
-Also, since the Stormbot v7 collection isn't listed under my repos on my main page, here is location to that project
+Also, since the Stormbot v7 collection isn't listed under my repos on my main page, here is location to that project.<br />
 [Stormbot v7](https://github.com/StormbotTCL/Stormbot7)
 
 > [Coder's message] <br />
