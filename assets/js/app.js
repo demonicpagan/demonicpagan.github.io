@@ -34,7 +34,8 @@
 	$("#github_user_badge").GitHubBadge({
 		login: "demonicpagan",
 		sort_on: "date", // "date" or "name"
-		sorting: "descending"
+		sorting: "descending",
+		include_github_logo: false
 	});
 
 	$('#twitter-widget-0').css('width','100%')
