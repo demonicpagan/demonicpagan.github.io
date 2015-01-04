@@ -16,6 +16,7 @@ customjs:
 <script type="text/javascript">
   $(function() {
     $("#github").loadRepositories("Demonicpagan");
+    $("#github").loadRepositories("StormbotTCL");
   });
 </script>
 <!-- End GitHub repo code -->
