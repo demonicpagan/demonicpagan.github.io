@@ -129,7 +129,7 @@
 }
 .ghb_badge .ghb_repo_list li {
 	display: block;
-	background: url("images/github-badge/public.gif") no-repeat scroll 10px 8px #FFFFFF; /* Smiley Pic */
+	background: url("images/github-badge/public.gif") no-repeat scroll 10px 8px #333; /* Smiley Pic */
 	border-bottom: 1px solid #E5E5E5;
 	padding-left: 22px;
 }
@@ -138,7 +138,7 @@
 }
 .ghb_badge .ghb_repo_list li a {
 	background: url("images/github-badge/arrow-40.png") no-repeat scroll 97% 50% transparent; /* Arrow next to Repo */
-	color: #4183C4;
+	color: #cfcfcf;
 	display: block;
 	font-size: 14px;
 	font-weight: bold;
