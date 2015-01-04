@@ -1,0 +1,120 @@
+
+body{
+	font-size:0.85em;
+}
+h1, .logo{
+	font-family: 'Ranchers', cursive;
+}
+.logo{
+	font-size-adjust:0.9;
+}
+
+h2{
+	font-family: 'Ranchers', cursive;
+}
+
+
+.related .posts a{display:block;font-weight:bold;}
+.related .posts span{color:$copyrightColor;}
+.related ul{list-style-type: none;}
+.related ul li{
+	margin-bottom:10px;
+}
+
+.posts-list{
+	list-style-type: none;
+	li{margin:5px 0;}
+}
+
+.copyright{
+	margin-top:20px;
+	text-align:center;
+	color:$copyrightColor;
+	font-size-adjust:0.5;
+}
+
+#github-badge{
+	border: 0;height: 142px;width: 100%;overflow: hidden;
+	margin-top:20px;
+}
+#github_user_badge{
+	margin-bottom:15px;
+}
+
+
+.post .step{
+	padding:20px 20px 20px 20px;
+	margin-bottom:15px;
+	border-radius:4px;
+
+	p > span{
+		font-weight:bold;
+		color:#777;
+		font-size:ms(2);
+		margin-right:10px;
+	}
+}
+.post .step:nth-child(odd){
+	background:#EEF1F2;
+}
+.post .step:nth-child(even){
+	background:#EBF4F6;
+}
+
+.post p:first-child{
+	font-weight:bold;
+}
+.post .step ul{
+	list-style-position: outside;
+	margin-left:20px;
+}
+
+
+#daily_mile_widget{
+	margin-top:15px;
+}
+#twitter-tweet-lc{
+	margin-bottom:15px;
+}
+#twitter-widget-0{
+	width:100% !important;
+}
+
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+#post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+#post ul, #post ol {
+  margin-left: 1.35em;
+}
+
+#post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+#post pre code {
+  border: none;
+}
+
+/* terminal */
+#post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+#post pre.terminal code {
+  background-color: #333;
+}
