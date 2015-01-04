@@ -3,7 +3,7 @@ layout: page
 title: Current Repositories
 tagline:
 customjs:
- - //code.jquery.com/jquery-1.11.0.min.js
+ - //code.jquery.com/jquery-1.11.2.min.js
  - /assets/js/github-query.js
 ---
 {% include JB/setup %}
