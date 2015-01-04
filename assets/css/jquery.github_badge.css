@@ -158,13 +158,13 @@
 	padding: 6px 25px 5px 10px;
 }
 .ghb_badge .ghb_repo_goto {
-	background: #FAFAFB;
+	background: #333;
 	font-size: 14px;
 	font-weight: bold;
 	padding: 10px;
 }
 .ghb_badge .ghb_repo_goto a {
-	color: #999999;
+	color: #cfcfcf;
 	margin-right: 15px;
 	text-decoration: none;
 }
