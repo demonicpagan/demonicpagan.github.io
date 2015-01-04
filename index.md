@@ -8,6 +8,7 @@ customjs:
 ---
 {% include JB/setup %}
 <div id="github"></div>
+<div id="github2"></div>
 
 <!-- Javascript to load and display repos from GitHub -->
 {% for js in page.customjs %}
@@ -16,7 +17,7 @@ customjs:
 <script type="text/javascript">
   $(function() {
     $("#github").loadRepositories("Demonicpagan");
-    $("#github").loadRepositories("StormbotTCL");
+    $("#github2").loadRepositories("StormbotTCL");
   });
 </script>
 <!-- End GitHub repo code -->
