@@ -6,12 +6,26 @@ customjs:
  - /assets/js/github-query.js
 ---
 {% include JB/setup %}
+{% assign m = page.date | date: "%B" %}
+{% case m %}
+  {% when 'April' or 'May' or 'June' or 'July' %} {{ m }}
+  {% when 'September' %} Sept.
+  {% else %} {{ page.date | date: "%b" }}
+{% endcase %}
 
 <div class="row">
 	<div class="large-8 columns">
 		<ul class="posts-list">
 			{% for post in site.posts %}
-				<li><span>{{ post.date | date: '%mmm %d, %Y'}}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</li>
+				<li>
+					<span>
+					{% case m %}
+						{% when 'April' or 'May' or 'June' or 'July' %} {{ m }}
+						{% when 'September' %} Sept.
+						{% else %} {{ page.date | date: "%b" }}
+					{% endcase %} {{ page.date | date: "%d, %Y" }}
+					</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+				</li>
 			{% endfor %}
 		</ul>
 	</div>
