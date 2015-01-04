@@ -12,17 +12,15 @@ markdown: redcarpet
 #
 title : Happenings in the GitHub World of Demonicpagan
 tagline: Loving the GitHub
-authors :
-  demonicpagan :
-    name : Dustin Lennon
-    email : demonicpagan@gmail.com
-    github : demonicpagan
-    twitter : demonicpagan
-    googleplus : +DustinLennon
-    facebook : demonicpagan
-    linkedin : dustinlennon
-  stormbottcl :
-    github : stormbottcl
+author :
+  name : Dustin Lennon
+  email : demonicpagan@gmail.com
+  github : demonicpagan
+  twitter : demonicpagan
+  googleplus : +DustinLennon
+  facebook : demonicpagan
+  linkedin : dustinlennon
+
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
