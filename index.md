@@ -6,7 +6,7 @@ customjs:
  - /assets/js/github-query.js
 ---
 {% include JB/setup %}
-{% assign m = page.date | date: "%B" %}
+{% assign m = post.date | date: "%B" %}
 
 <div class="row">
 	<div class="large-8 columns">
