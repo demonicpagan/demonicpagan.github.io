@@ -43,8 +43,8 @@
 /* Header for user and project badge */
 .ghb_badge .ghb_badge_header {
 	background: #333;
-	/* background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.03, rgb(247,248,249)), color-stop(1, rgb(234,236,236)));
-	background-image: -moz-linear-gradient(center top, rgb(247,248,249) 3%, rgb(234,236,236) 100%); */
+	/* background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.03, rgb(247,248,249)), color-stop(1, rgb(234,236,236))); */
+	/* background-image: -moz-linear-gradient(center top, rgb(247,248,249) 3%, rgb(234,236,236) 100%); */
 	min-height: 30px;
 	padding: 5px 10px;
 }
