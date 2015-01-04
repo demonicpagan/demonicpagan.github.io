@@ -2,7 +2,7 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".gitignore"]
 highlighter: pygments
 timezone: America/New_York
 markdown: redcarpet
@@ -20,6 +20,7 @@ author :
   googleplus : +DustinLennon
   facebook : demonicpagan
   linkedin : dustinlennon
+
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
