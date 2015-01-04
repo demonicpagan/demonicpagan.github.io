@@ -130,7 +130,7 @@
 .ghb_badge .ghb_repo_list li {
 	display: block;
 	background: url("images/github-badge/public.gif") no-repeat scroll 10px 8px #333; /* Smiley Pic */
-	border-bottom: 1px solid #E5E5E5;
+	border-bottom: 1px solid #000;
 	padding-left: 22px;
 }
 .ghb_badge .ghb_repo_list li.ghb_repo_fork {
