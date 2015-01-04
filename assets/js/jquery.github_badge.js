@@ -95,7 +95,7 @@ if ( typeof jQuery != "undefined" ) {
 
   var api_root = "https://api.github.com/", // api v3
 
-  github_logo_template = '<a target="_blank" href="http://github.com"><img class="github-mark" src="{{image_path}}github.svg" alt="GitHub"></a>',
+  github_logo_template = '<a target="_blank" href="http://github.com"><img class="github-mark" src="{{image_path}}ghb_logo.png" alt="GitHub"></a>',
 
   user_template = [
     '<div class="ghb {{theme}}">',
@@ -525,7 +525,7 @@ if ( typeof jQuery != "undefined" ) {
     sorting: "ascending", // ascending or descending for repos (user badge) and issues (project badge)
     theme: "github", // adds value as class for entire badge
     include_github_logo: true, // show a lil love
-    image_path: "images/",
+    image_path: "/images/github-badge/",
     animate_style: "slide", //slideDown or show
 
     // User Badge Options
