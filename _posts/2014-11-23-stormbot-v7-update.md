@@ -8,7 +8,7 @@ tags: [TCL, Stormbot v7]
 {% include JB/setup %}
 
 One of the projects that I assist in maintaining is Stormbot. I got started on this project a few years back when I was first
-starting to learn how to code in TCL. Here we are now, in it's 7th revision. I got involved when it was on its 5th revision.
+starting to learn how to code in TCL. Here we are now, in it's 7th revision. I got involved when it was on it's 5th revision.
 
 On every push I make to the project, I include the latest changelog that Mai Mizuno creates for me to include into my GitHub
 pushes.
