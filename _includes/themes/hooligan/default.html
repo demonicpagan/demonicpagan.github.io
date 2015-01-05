@@ -32,12 +32,6 @@
     <script src="/assets/js/vendor/custom.modernizr.js"></script>
     <script src="/assets/js/jquery.tooltipster.min.js"></script>
 
-    <script>
-      $(document).ready(function() {
-        $('.tooltip').tooltipster();
-      });
-    </script>
-
     <!-- fav and touch icons -->
     <!-- Update these with your own images
       <link rel="shortcut icon" href="images/favicon.ico">
@@ -72,6 +66,13 @@
                 {% if site.author.github %}
                 <li>
                   <a href="https://github.com/{{ site.author.github }}" class="zocial github icon" target="_blank">
+                    <span class="hidden-desktop">Github</span>
+                  </a>
+                </li>
+                {% endif %}
+                {% if site.author.github2 %}
+                <li>
+                  <a href="https://github.com/{{ site.author.github2 }}" class="zocial github icon" target="_blank">
                     <span class="hidden-desktop">Github</span>
                   </a>
                 </li>
