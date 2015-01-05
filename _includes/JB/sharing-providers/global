@@ -1,19 +1,18 @@
-<div id="share-buttons">
-	<ul class="post-share ulno mob">
+<ul class="post-share ulno mob">
 
-	<!-- Twitter -->
-	<li class="tw"><a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ page.title }}" data-via="{{ site.JB.sharing.twitter.via }}" data-related="{{ site.author.twitter }}" {% if site.JB.sharing.twitter.count == 'none' %}data-count="{{ site.JB.sharing.twitter.count }}"{% endif %} {% if site.JB.sharing.twitter.size == 'large' %}data-size="{{ site.JB.sharing.twitter.size }}"{% endif %}>Tweet</a></li>
+<!-- Twitter -->
+<li class="tw"><a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ page.title }}" data-via="{{ site.JB.sharing.twitter.via }}" data-related="{{ site.author.twitter }}" {% if site.JB.sharing.twitter.count == 'none' %}data-count="{{ site.JB.sharing.twitter.count }}"{% endif %} {% if site.JB.sharing.twitter.size == 'large' %}data-size="{{ site.JB.sharing.twitter.size }}"{% endif %}>Tweet</a></li>
 
-	<!-- Google+ -->
-	<li class="gp"><div class="g-plusone" {% unless site.JB.sharing.googleplus.size == 'small' or 'medim' or 'tall' %}data-size="{{ site.JB.sharing.googleplus.size }}"{% endunless %} data-annotation="{{ site.JB.sharing.googleplus.annotation }}" data-width="{{ site.JB.sharing.googleplus.width }}"></div></li>
+<!-- Google+ -->
+<li class="gp"><div class="g-plusone" {% unless site.JB.sharing.googleplus.size == 'small' or 'medim' or 'tall' %}data-size="{{ site.JB.sharing.googleplus.size }}"{% endunless %} data-annotation="{{ site.JB.sharing.googleplus.annotation }}" data-width="{{ site.JB.sharing.googleplus.width }}"></div></li>
 
-	<!-- Facebook -->
-	<li class="fb"><div class="fb-like" data-action="like" data-layout="{{ site.JB.sharing.facebook.layout }}" data-share="{{ site.JB.sharing.facebook.share }}" data-show-faces="{{ site.JB.sharing.facebook.faces }}" data-font="{{ site.JB.sharing.facebook.font }}" href="{{ site.page.url }}"></div></li>
+<!-- Facebook -->
+<li class="fb"><div class="fb-like" data-action="like" data-layout="{{ site.JB.sharing.facebook.layout }}" data-share="{{ site.JB.sharing.facebook.share }}" data-show-faces="{{ site.JB.sharing.facebook.faces }}" data-font="{{ site.JB.sharing.facebook.font }}" href="{{ site.page.url }}"></div></li>
 
-	<!-- Reddit -->
-	<li><a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false"> <img src="//www.redditstatic.com/spreddit7.gif" alt="submit to reddit" border="0" /></a></li>
-	</ul>
-</div>
+<!-- Reddit -->
+<li><a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false"> <img src="//www.redditstatic.com/spreddit7.gif" alt="submit to reddit" border="0" /></a></li>
+</ul>
+
 
 <script>
   
