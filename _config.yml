@@ -87,7 +87,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : true
+    provider : disqus
     disqus :
       short_name : dustinlennon
     livefyre :
