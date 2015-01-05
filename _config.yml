@@ -89,7 +89,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : dustinlennon
+      short_name : dpgithubblog
     livefyre :
       site_id : 
     intensedebate :
