@@ -13,7 +13,7 @@ customjs:
 		<ul class="posts-list">
 			{% for post in site.posts %}
 				<li>
-					<span>{% case m %}{% when 'April' or 'May' or 'June' or 'July'}{{ m }}{% when 'September' %}Sept.{% else %}{{ post.date | date: "%b. " }}{% endcase %}{{ post.date | date: "%-d, %Y" }}</span> &raquo; <a href="{{ post.url }}" class="tooltip" title="{{ post.excerpt }}">{{ post.title }}</a>
+					<span>{% case m %}{% when 'April' or 'May' or 'June' or 'July'}{{ m }}{% when 'September' %}Sept.{% else %}{{ post.date | date: "%b. " }}{% endcase %}{{ post.date | date: "%-d, %Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
 				</li>
 			{% endfor %}
 		</ul>
