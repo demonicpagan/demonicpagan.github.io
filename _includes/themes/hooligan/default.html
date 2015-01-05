@@ -32,6 +32,12 @@
     <script src="/assets/js/vendor/custom.modernizr.js"></script>
     <script src="/assets/js/jquery.tooltipster.min.js"></script>
 
+    <script>
+      $(document).ready(function() {
+        $('.tooltip').tooltipster();
+      });
+    </script>
+
     <!-- fav and touch icons -->
     <!-- Update these with your own images
       <link rel="shortcut icon" href="images/favicon.ico">
@@ -155,9 +161,6 @@
 
     <script>
       $(document).foundation();
-      $(document).ready(function() {
-        $('.tooltip').tooltipster();
-      });
     </script>
 
     {% include JB/analytics %}
