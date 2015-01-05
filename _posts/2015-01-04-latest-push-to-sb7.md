@@ -10,6 +10,8 @@ tags: [TCL, Stormbot v7]
 So, earlier today I pushed an update to [Stormbot v7 on GitHub](https://github.com/StormbotTCL/Stormbot7). This update fixes some issues with WHO and
 output. There a few commands added and some fixes to holdover SB6 code. There was also a fix to a fatal error that was found in the bootstrap.
 
+<!-- more -->
+
 > StormBot V7 ChangeLog: 2015-01-04 09:19:31 -0000<br />
 >
 > [Coder's message] <br />

@@ -13,6 +13,8 @@ starting to learn how to code in TCL. Here we are now, in it's 7th revision. I g
 On every push I make to the project, I include the latest changelog that Mai Mizuno creates for me to include into my GitHub
 pushes.
 
+<!-- more -->
+
 I think I will copy/paste that into my posts here as well, starting with the push I just made a few moments ago.
 
 Also, since the Stormbot v7 collection isn't listed under my repos on my main page, here is location to that project.<br />

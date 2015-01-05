@@ -12,6 +12,8 @@ Anodyne-Productions. Presently in the works is version 3, but it is no where nea
 [Nova-UCIP-Stardate--Date--Time](https://github.com/demonicpagan/Nova-UCIP-Stardate--Date--Time) MOD. What I have added to this MOD is the ability to display in any theme the Stardate for Star Trek Online (STO). This
 addition was made possible by the help of the person who maintains [STO Academy](http://www.stoacademy.com/).
 
+<!-- more -->
+
 My next update pertains to my work in progress for my Final Fantasy XIV (FFXIV) Wordpress Plugin. The point of this plugin is to allow you to display your FFXIV character information in your sidebar or on its own personal
 page. I am using the API that Josh Freeman/Viion of XIVPads.com uses to scrape the FFXIV Lodestone. I have kept this up to date with the latest version of his API, I just haven't sat down to complete the plugin due to time
 constraints with my job and family. (And I have to make time to play FFXIV, of course).

@@ -16,6 +16,8 @@ to make you aware. These repos are all that I have uploaded to GitHub. The e107 
 wrote and my FFXI WordPress plugin are no longer being maintained. I no longer make use 
 of the e107 CMS and no longer play Final Fantasy XI.
 
+<!-- more -->
+
 If you like any of my projects, please free to fork the project. You are also welcome to 
 assist me on projects that you use. Just send merge requests from the project you want to 
 contribute to.
