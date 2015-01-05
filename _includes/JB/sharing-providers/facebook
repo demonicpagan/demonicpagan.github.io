@@ -7,4 +7,4 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<div class="fb-like" data-send="false" data-layout="{{ site.JB.sharing.facebook.layout }}" data-width="{{ site.JB.sharing.facebook.width }}" data-show-faces="{{ site.JB.sharing.facebook.faces }}" data-font="{{ site.JB.sharing.facebook.font }}"></div>
+<div class="fb-like" data-action="like" data-layout="{{ site.JB.sharing.facebook.layout }}" data-share="{{ site.JB.sharing.facebook.share }}" data-show-faces="{{ site.JB.sharing.facebook.faces }}" data-font="{{ site.JB.sharing.facebook.font }}" href="{{ site.page.url }}"></div>

@@ -116,13 +116,33 @@ JB :
         baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
         idsite : '1'                   # the id of the site on Piwik
 
-  # Settings for sharing helper. 
-  # Sharing is for things like tweet, plusone, like, reddit buttons etc.
+  # Settings for sharing 
+  # Sharing is for things like tweet, plusone, hn upvotes, like, linkedin
+  # Add a tweet button 		=> provider : tweet
+  # Add a like button 		=> provider : like (you also need a facebook appid)
+  # Add a plus one button 	=> provider : plusone
+  # Add a HN button 		=> provider : hn
+  # Add them all (i.e. hn + tweet + plusone + like) => provider : all
   # Set 'provider' to the sharing provider you want to use.
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : false
+    provider : all
+    twitter :
+      size :
+      via : Demonicpagan
+      count :
+    facebook :
+      appid : 338257576367646
+      layout : button_count
+      faces : false
+      share : true
+    googleplus :
+      size : standard
+      width :
+      annotation : bubble
+    linkedin :
+      counter : right
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:

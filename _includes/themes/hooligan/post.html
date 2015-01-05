@@ -11,6 +11,9 @@
   <div class="span8">
     {{ content }}
     <hr>
+    <div class="post-sharing">
+      {% include JB/sharing %}
+    </div>
     <div class="pagination btn-group">
       {% if page.previous %}
         <a class="btn prev" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a>
