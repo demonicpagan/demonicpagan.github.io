@@ -24,7 +24,7 @@ customjs:
 		<div id="github_user_badge2"></div>
 		<br /><br />
 		<div id="twitter-tweet-dp">
-			<a class="twitter-timeline" href="https://twitter.com/Demonicpagan" data-widget-id="436373017250115584">Tweets by @Demonicpagan</a>
+			<a class="twitter-timeline" href="http://twitter.com/Demonicpagan" data-widget-id="436373017250115584">Tweets by @Demonicpagan</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		</div>
 	</div>
