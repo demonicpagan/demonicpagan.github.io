@@ -29,6 +29,25 @@
     <link href="/assets/css/dtstyle.css" rel="stylesheet" type="text/css" />
     <link href="/assets/css/jquery.github_badge.css" media="all" rel="stylesheet" type="text/css" />
 
+    <style type="text/css">
+      #search-container {
+        max-width: 40em;
+        padding: 1em;
+        margin: 1em auto
+        border: 1px solid lightgrey;
+      }
+
+      #search-input {
+        display: inline-block;
+        padding: .5em;
+        width: 100%;
+        font-size: .8em;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+    </style>
+
     <!-- fav and touch icons -->
     <!-- Update these with your own images
       <link rel="shortcut icon" href="images/favicon.ico">
@@ -116,6 +135,10 @@
       </div>
 
       <div class="container">
+        <div id="search-container">
+          <input type="text" id="search-input" placeholder="Search this blog..." />
+          <ul id="results-container"></ul>
+        </div>
         <div class="content">
           {{ content }}
         </div>
@@ -140,6 +163,20 @@
 
     <!-- Application Javascript, safe to override -->
     <script src="/assets/js/app.js"></script>
+
+    <!-- Jekyll Search Box -->
+    <script src="/assets/js/jekyll-search.js"></script>
+
+    <script type="text/Javascript">
+      SimpleJekyllSearch.init({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        dataSource: '{{ site.baseurl }}/search.json',
+        searchResultsTemplate: '<li><a href="{url}" title={desc}">{title}</a></li>',
+        noResultsText: 'No results found',
+        fuzzy: false,
+      })
+    </script>
 
     {% include JB/analytics %}
   </body>
