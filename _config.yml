@@ -6,6 +6,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 highlighter: pygments
 timezone: America/New_York
 markdown: redcarpet
+pygments: true
 excerpt_separator: "<!-- more -->"
 
 # Themes are encouraged to use these universal variables 
