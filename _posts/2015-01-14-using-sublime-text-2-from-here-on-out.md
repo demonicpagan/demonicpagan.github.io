@@ -8,6 +8,7 @@ published: True
 {% include JB/setup %}
 
 This post is the first post I've started out by creating the post through Sublime Text 2. Now if you would like to get started on this like I have, I'll try to walk you through my process.
+
 <!-- more -->
 
 When I first started this whole blogging thing through GitHub pages, I started by coming across [Jekyll Bootstrap](http://jekyllbootstrap.com/). I followed the Jekyll QuickStart, my first post made was done by issuing the command:
@@ -62,7 +63,7 @@ Here are some packages that I recommend installing after browsing around Google 
 * Markdown Preview: This allows you to preview and build your markdown files quickly in your web browser from Sublime Text 2/3.
 * Markdown Editing: This provides a decent Markdown color scheme (light and dark) with more robust syntax highlighting and useful editing features. Three flavors are supported: Standard Markdown, Github flavored Markdown, MultiMarkdown.
 * SASS Snippets: This just adds some snippets when writing SASS.
-* SideBarEnhancements: If you are going to use this for Sublime Text 2, download this file https://dl.dropboxusercontent.com/u/9303546/SublimeText/SideBarEnhancements.zip as this package is no longer maintained for Sublime Text 2. For those running Sublime Text 3, just install through Package Control. What this does is adds more commands you can use if you right-click on a file in the sidebar.
+* SideBarEnhancements: If you are going to use this for Sublime Text 2, download this file [https://dl.dropboxusercontent.com/u/9303546/SublimeText/SideBarEnhancements.zip](https://dl.dropboxusercontent.com/u/9303546/SublimeText/SideBarEnhancements.zip) as this package is no longer maintained for Sublime Text 2. For those running Sublime Text 3, just install through Package Control. What this does is adds more commands you can use if you right-click on a file in the sidebar.
 
 <img src="https://packagecontrol.io/readmes/img/03c90c0ea60334ac957ab47f01d44900bea2ec03.png">
 
