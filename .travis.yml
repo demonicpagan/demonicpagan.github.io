@@ -2,7 +2,12 @@ language: ruby
 before_install:
   - gem update --system
   - gem --version
-script: "bundle exec jekyll build"
+install:
+  - gem install public_suffix
+  - gem install html-proofer
+
+before_script: jekyll build
+script: htmlproof _site
 rvm:
   - "2.1.0"
   - "1.9.3"
