@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Using Sublime Text 2 From Here on Out
-categories: 
 tags: [Editors, Markdown, Sublime Text, Packages]
-published: True
 ---
 {% include JB/setup %}
 

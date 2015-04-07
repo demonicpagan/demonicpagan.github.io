@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Latest Push to SB7"
-description: ""
-category: 
 tags: [TCL, Stormbot v7]
 ---
 {% include JB/setup %}

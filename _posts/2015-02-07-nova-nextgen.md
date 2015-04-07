@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Nova NextGen"
-category: 
 tags: [PHP, Nova NextGen, Development]
 ---
 {% include JB/setup %}

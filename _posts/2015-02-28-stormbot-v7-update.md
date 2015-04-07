@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Stormbot v7 Update"
-categories: []
 tags: [TCL, Stormbot v7]
 ---
 {% include JB/setup %}

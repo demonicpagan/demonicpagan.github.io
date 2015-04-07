@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Happy New Year"
-description: ""
-category: 
 tags: [New Year, Blog]
 ---
 {% include JB/setup %}

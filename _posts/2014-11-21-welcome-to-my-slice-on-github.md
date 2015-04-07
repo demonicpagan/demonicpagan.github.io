@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Welcome to my slice on GitHub"
-description: ""
-category: 
 tags: [intro, welcome]
 ---
 {% include JB/setup %}

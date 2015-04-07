@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Recent Update"
-description: ""
-category: 
 tags: [PHP, FFXIV, WordPress, Nova, Star Trek]
 ---
 {% include JB/setup %}
