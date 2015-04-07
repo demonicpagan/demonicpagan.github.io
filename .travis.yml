@@ -1,18 +1,14 @@
 language: ruby
+
 before_install:
   - gem update --system
   - gem --version
+
 install:
+  - gem install github-pages
   - gem install public_suffix
   - gem install html-proofer
 
-before_script: jekyll build
+before_script: bundle exec jekyll build
+
 script: htmlproof _site
-rvm:
-  - "2.1.0"
-  - "1.9.3"
-  - "1.9.2"
-  - jruby-19mode
-  - rbx
-  - jruby-18mode
-  - "1.8.7"
