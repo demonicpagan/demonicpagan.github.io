@@ -3,7 +3,6 @@ layout: post
 title: "::Tap, Tap:: Is Anybody Still There?"
 tags: [TCL, Stormbot v7, Node.JS, Twitch.tv, Final Fantasy XIV, PHP, Wordpress]
 ---
-
 {% include JB/setup %}
 
 Damnit... here I go again... almost forgetting I have a blog here to be posting on. I guess that is what happens when you have a full time job. Things like this get pushed aside. I REALLY need to look into resolving this issue. I have a handful of projects I am working on and I'm not making any progress on any. Le sigh. Now on to the purpose of this post.
