@@ -63,7 +63,7 @@ Here are some packages that I recommend installing after browsing around Google 
 * SASS Snippets: This just adds some snippets when writing SASS.
 * SideBarEnhancements: If you are going to use this for Sublime Text 2, download this file [https://dl.dropboxusercontent.com/u/9303546/SublimeText/SideBarEnhancements.zip](https://dl.dropboxusercontent.com/u/9303546/SublimeText/SideBarEnhancements.zip) as this package is no longer maintained for Sublime Text 2. For those running Sublime Text 3, just install through Package Control. What this does is adds more commands you can use if you right-click on a file in the sidebar.
 
-<img src="https://packagecontrol.io/readmes/img/03c90c0ea60334ac957ab47f01d44900bea2ec03.png">
+<img src="https://packagecontrol.io/readmes/img/03c90c0ea60334ac957ab47f01d44900bea2ec03.png" alt="Sublime Text Sidebar">
 
 * Sublime-Github: This is yet another plugin that adds more useful commands for those that use Github such as switching accounts, creating private/public gists from selection, and others.
 * Theme - Soda: I liked the dark version of this theme. There is a light version as well.

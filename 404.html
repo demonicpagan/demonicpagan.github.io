@@ -41,7 +41,7 @@ title: 404
     <ul>
         <li ng-repeat="post in posts | matchesQuery:query">
           {% raw %} <!-- hack for blog entry - extra space -->
-          <a ng-href="{{post.href}}">{{ post.title }}</a> 
+          <a ng-href="{{post.href}}" data-proofer-ignore>{{ post.title }}</a> 
           {% endraw %} <!-- same hack here too -->
         </li>
     </ul>
