@@ -58,7 +58,6 @@
 
     user_info_template = [
         '<img src="{{avatar_url}}" />',
-        '<br />',
         '{{name}}',
         '<dl>',
             '<dt>Public Repos:</dt>',
