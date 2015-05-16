@@ -57,7 +57,7 @@
         '</h1>'].join(''),
 
     user_info_template = [
-        '<img src="{{avatar_url}}" />',
+        '<img src="{{avatar_url}}" align="left" />',
         '{{name}}',
         '<dl>',
             '<dt>Public Repos:</dt>',
