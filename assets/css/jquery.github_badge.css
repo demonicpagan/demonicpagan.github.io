@@ -99,7 +99,7 @@
 .ghb_badge .ghb_badge_user_info img {
 	border: 1px solid #E1E1E2;
 	clear: both;
-	float: right;
+	float: left;
 	margin: 0 10px;
 	padding: 10px;
 	height: 185px;
