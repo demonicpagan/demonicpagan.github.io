@@ -17,9 +17,9 @@ I am quite happy with the web site. It makes it easy for me to share the site wi
 
 I'll stick with the site, see how it progresses forward, maybe dig into the code myself and learn what is goin on behind the scenes and if need be, improve upon it.
 
-For any of you other Dexcom G4 users out there and would like to know more about the #WeAreNotWaiting movement, head on over to the [Nightscout Wiki](http://www.nightscout.info). The have information about CGM in the cloud.
+For any of you other Dexcom G4 users out there and would like to know more about the #WeAreNotWaiting movement, head on over to the [Nightscout Wiki](http://www.nightscout.info). They have information about CGM in the cloud.
 
-What I use for my CGM in the cloud
-  * [Nightscout](https://github.com/nightscout/cgm-remote-monitor)
-  * [Android Uploader](https://github.com/nightscout/android-uploader)
-  * [xDrip](https://github.com/StephenBlackWasAlreadyTaken/xDrip)
+What I use for my CGM in the cloud:<br />
+  * [Nightscout](https://github.com/nightscout/cgm-remote-monitor)<br />
+  * [Android Uploader](https://github.com/nightscout/android-uploader)<br />
+  * [xDrip](https://github.com/StephenBlackWasAlreadyTaken/xDrip)<br />
