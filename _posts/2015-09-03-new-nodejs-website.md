@@ -20,6 +20,6 @@ I'll stick with the site, see how it progresses forward, maybe dig into the code
 For any of you other Dexcom G4 users out there and would like to know more about the #WeAreNotWaiting movement, head on over to the [Nightscout Wiki](http://www.nightscout.info). They have information about CGM in the cloud.
 
 What I use for my CGM in the cloud:<br />
-  * [Nightscout](https://github.com/nightscout/cgm-remote-monitor)<br />
-  * [Android Uploader](https://github.com/nightscout/android-uploader)<br />
-  * [xDrip](https://github.com/StephenBlackWasAlreadyTaken/xDrip)<br />
+* [Nightscout](https://github.com/nightscout/cgm-remote-monitor)<br />
+* [Android Uploader](https://github.com/nightscout/android-uploader)<br />
+* [xDrip](https://github.com/StephenBlackWasAlreadyTaken/xDrip)<br />
